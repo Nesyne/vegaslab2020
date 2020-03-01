@@ -16,4 +16,4 @@ jobs:
     - name: Build with dotnet
       run: dotnet build ./src/ghcorewebapp/ghcorewebapp.csproj --configuration Release
     - name: Publish with dotnet
-      run: donet publish ./src/ghcorewebapp/ghcorewebapp.csproj --configuration Release --output ./output
+      run: dotnet publish ./src/ghcorewebapp/ghcorewebapp.csproj --configuration Release --output ./output
